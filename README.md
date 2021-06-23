@@ -1,4 +1,4 @@
-esources
+Resources
 Read or watch:
 
 Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first)
