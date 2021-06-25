@@ -1,11 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - Entry Point
- *
- * Return Always 0 (Success)
+ * main - source code changes to whether positive or negative
+ * Return:0 (Success)
  */
 int main(void)
 {
