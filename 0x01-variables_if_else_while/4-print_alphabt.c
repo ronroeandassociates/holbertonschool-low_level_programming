@@ -13,7 +13,6 @@ int main(void)
 	for (i = 0; i < 26; i++)
 	{
 	ch = alphaa[i];
-	putchar(ch);
 	}
 	if (ch == 'q' || ch == 'e')
 	i++;
