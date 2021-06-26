@@ -7,7 +7,7 @@
 int main(void)
 {
 	char alphaa[27] = "abc...xyz";
-	char alphaB[27] = "ABC...XYZ";
+	char alphab[27] = "ABC...XYZ";
 	int i = 0;
 	char ch;
 
@@ -18,7 +18,7 @@ int main(void)
 	}
 	for (i = 0; i < 26; i++)
 	{
-	ch = alphaB[i];
+	ch = alphab[i];
 	putchar(ch);
 	}
 	putchar('\n');
