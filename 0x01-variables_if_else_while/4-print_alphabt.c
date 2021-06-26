@@ -6,19 +6,18 @@
  */
 int main(void)
 {
-	char alphaa[27] = "abcdefghijklmnopqrstuvwxyz";
-	int i = 0;
-	char ch;
+	char h;
 
-	for (i = 0; i < 26; i++)
+	h = 'a';
+	while (h <= 'z')
 	{
-	ch = alphaa[i];
-	}
-	if (ch == 'q' || ch == 'e')
-	i++;
-	{
-	putchar(ch);
-	}
+		if (c == 'q' || h == 'e')
+		{
+		putchar(h);
+		++h;
+		}
+		else
+			++h;
 	putchar('\n');
 	return (0);
 }
