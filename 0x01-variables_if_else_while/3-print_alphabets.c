@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	char alphaa[27] = "abc...xyz";
-	char alphab[27] = "ABC...XYZ";
+	char alphaa[27] = "abcdefghijklmnopqrstuvwxyz";
+	char alphab[27] = "ABCDEFGHIJKLMOPQRSTUVWXYZ";
 	int i = 0;
 	char ch;
 
