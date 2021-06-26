@@ -7,7 +7,7 @@
 int main(void)
 {
 	char alphaa[27] = "abcdefghijklmnopqrstuvwxyz";
-	char alphab[27] = "ABCDEFGHIJKLMOPQRSTUVWXYZ";
+	char alphab[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i = 0;
 	char ch;
 
