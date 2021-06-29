@@ -12,7 +12,7 @@ int _abs(int c)
 	int sum = 0;
 
 	if (c < 0)
-	sum = (c - c) + (-c);
+	sum = (c * -1);
 	else
 	sum = c;
 	return (sum);
