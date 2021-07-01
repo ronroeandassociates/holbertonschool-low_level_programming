@@ -1,11 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/**
+* main - source code changes to last digit
+* Return:0 (Success)
+*/
 int main(void)
 {
-	int n
+	int n;
+	int r;
 		;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
