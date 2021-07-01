@@ -14,7 +14,7 @@ int main(void)
 		if ((n % i) == 0)
 		{
 			n = n / i;
-			}
+
 		}
 		if (n == 1)
 		{
@@ -22,5 +22,6 @@ int main(void)
 		}
 		i++;
 	}
+
 return (0);
 }
