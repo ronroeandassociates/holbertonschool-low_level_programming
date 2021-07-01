@@ -6,23 +6,21 @@
 */
 int main(void)
 {
-	long int num = 612852475143, i = 2;
+	long n = 612852475143;
+	long i = 2;
 
-	while (i <= num)
+	while (n != 1)
 	{
-		if ((num % i) == 0)
+		if ((n % i) == 0)
 		{
-			if (num != i)
-			{
-				num = num / i;
+			n = n / i;
 			}
 		}
-		else
+		if (n == 1)
 		{
 			printf("%ld\n", i);
 		}
 		i++;
-	
-	}	
-	return (0);
+	}
+return (0);
 }
