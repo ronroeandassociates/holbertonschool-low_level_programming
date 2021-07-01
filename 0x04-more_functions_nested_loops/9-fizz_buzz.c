@@ -2,7 +2,7 @@
 
 /**
 * main - funtion principal that prints number from 1 to 100
-* but for multibples of 3 print, multiples of 5 print buzz
+* but for multiples of 3 print, multiples of 5 print buzz
 * and multiples 3 and 5 prints FizzBuzz
 * Return: 0.
 */
