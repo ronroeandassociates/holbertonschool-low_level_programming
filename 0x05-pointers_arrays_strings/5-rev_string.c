@@ -5,23 +5,19 @@
  * @s: String to reverse
  * Return: nothing.
  */
-
 void rev_string(char *s)
 {
-	int i = 0;
-	int tmp = 0;
-	char ltemp;
+	int i;
+	int j;
+	char tmp;
 
-	while (*(s + i) != '\0')
-		i += 1;
-		i -= 1;
-
-	while (tmp < i)
+	for (i = 0; s[i] != 00; i++)
+	i = i --;
+	for (j = 0; j <= i; j++)
 	{
-		ltemp = s[i];
-		s[i] = s[tmp];
-		s[tmp] = ltemp;
-		tmp++;
+		tmp = s[j];
+		s[j] = s[i];
+		s[i] = tmp;
 		i--;
 	}
 }
