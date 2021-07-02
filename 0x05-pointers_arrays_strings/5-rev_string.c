@@ -6,6 +6,7 @@
  * Return: nothing.
  */
 
+void rev_string(char *s)
 {
 		int i = 0;
 		int aux = 0;
