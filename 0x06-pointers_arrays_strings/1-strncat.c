@@ -2,8 +2,8 @@
 
 /**
  * _strncat - concatenates two strings
- * @dest:char dest
- * @src: char src
+ * @destination:char dest
+ * @source: char src
  * @n:length int
  * Return:char
  */
