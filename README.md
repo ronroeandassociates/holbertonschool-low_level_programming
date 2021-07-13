@@ -1,6 +1,6 @@
-#0x00. C - Hello, World
-##Resources
-###Read or watch:
+# 0x00. C - Hello, World
+## Resources
+### Read or watch:
 
 - Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first)
 - Dennis Ritchie
@@ -13,16 +13,16 @@
 - Hash-bang under the hood (Look at only after you finish consuming the other resources)
 - Linus Torvalds on C vs. C++ (Look at only after you finish consuming the other resources)
 
-###man or help:
+### man or help:
 - gcc
 - printf (3)
 - puts
 - putchar
 
-##Learning Objectives
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-###General
+### General
 - Why C programming is awesome
 - Who invented C
 - Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
@@ -36,8 +36,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - What is the official Holberton C coding style and how to check your code with betty-style
 - How to find the right header to include in your source code when using a standard library function
 - How does the main function influence the return value of the program
-###Requirements
-###C
+### Requirements
+### C
 -Allowed editors: vi, vim, emacs
 -All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 -All your files should end with a new line
