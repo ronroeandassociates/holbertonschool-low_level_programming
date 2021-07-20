@@ -57,9 +57,9 @@ char **strtow(char *str)
 			{
 				for (k = 0; k < ch; k++)
 					free(x[k]);
-					free(x[n - 1]);
-					free(x);
-						return (NULL);
+				free(x[n - 1]);
+				free(x);
+				return (NULL);
 			}
 			for (l = 0; l < j; l++)
 				x[ch][l] = str[i + l];
