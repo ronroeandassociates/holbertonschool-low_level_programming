@@ -34,8 +34,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - All your header files should be include guarded
 
 ### Tasks
-- [x] 0-object/_like/_macro.h
+- [x] 0-object\_like\_macro.h
 - [x] 1-pi.h
 - [x] 2-main.c
-- [x] 3-function/_like/_macro.h
+- [x] 3-function\_like\_macro.h
 - [x] 4-sum.h
