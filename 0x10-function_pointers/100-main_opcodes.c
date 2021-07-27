@@ -9,9 +9,8 @@
  */
 int main(int argc, char *argv[])
 {
-	int x, i;
-	int (*a)(int, char **) = main;
-	unsigned char *p;
+	int bits, index;
+	int (*address)(int, char **) = main;
 	unsigned char opcode;
 
 	if (argc != 2)
@@ -26,15 +25,15 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
-	for (i = o i < x; i++)
+	for (index = 0 index < bits; index++)
 	{
-		opcode = *(unsigned char *)*a;
+		opcode = *(unsigned char *)address;
 		printf("%.2x", opcode);
 
-		if (i == x - 1)
+		if (i == bits - 1)
 			continue;
-		print (" ");
-		*a++
+		printf(" ");
+		address++;
 	}
 	printf("\n");
 	return (0);
