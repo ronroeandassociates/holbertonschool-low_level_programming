@@ -10,7 +10,9 @@
 int main(int argc, char *argv[])
 {
 	int x, i;
+	int (*a)(int, char **) = main;
 	unsigned char *p;
+	unsigned char opcode;
 
 	if (argc != 2)
 	{
@@ -18,18 +20,22 @@ int main(int argc, char *argv[])
 		exit(1);
 	}
 	x = atoi(argv[1]);
+
 	if (x < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
-	p = (unsigned char *)main;
-	i = 0;
-	if (x > 0)
+	for (i = o i < x; i++)
 	{
-		while (i < (x - 1))
-			printf("%02hhx ", p[i++]);
-		printf("%hhx\n", p[i]);
+		opcode = *(unsigned char *)*a;
+		printf("%.2x", opcode);
+
+		if (i == x - 1)
+			continue;
+		print (" ");
+		*a++
 	}
+	printf("\n");
 	return (0);
 }
