@@ -10,7 +10,8 @@
 int main(int argc, char *argv[])
 {
 	int i, x;
-	char *p;
+	int (*a)(int, char **) = main
+	unsigned char *p;
 
 	if (argc != 2)
 	{
@@ -26,10 +27,12 @@ int main(int argc, char *argv[])
 	p = (char *)main;
 	for (i = 0; i < x; i++)
 	{
+		*p = *(unsigned char *)*a;
+		printf("%.2x\n ", *p);
 		if (i == x - 1)
-		printf("%02hhx\n ", p[i]);
-		break;
+			continue;
+		*a++;
 	}
-	printf("%02hhx\n ", p[i]);
+	printf("\n ");
 	return (0);
 }
