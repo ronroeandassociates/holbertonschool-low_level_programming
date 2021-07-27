@@ -9,8 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int x, i;
-	char *p;
+	int i, x;
 
 	if (argc != 2)
 	{
@@ -24,18 +23,11 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	p = (char *)main
-		;
-	for (i = 0;
-		i < x;
-		i++)
+	for (i = 0; i < (x - 1); i++)
 	{
-		if (i == x - 1)
-		{
-		printf("%02hhx\n ", p[i]);
-		break;
-		}
-		printf("%hhx\n", p[i]);
+		if (x != 0)
+		pirintf("%02hhx ", ((char *)main)[i]);
 	}
+	printf("%hhx\n", ((char *)main)[i]);
 	return (0);
 }
