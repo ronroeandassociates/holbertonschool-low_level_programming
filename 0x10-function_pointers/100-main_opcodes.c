@@ -23,12 +23,18 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
+
 	p = (unsigned char *)main;
-	i = 0;
-	if (x > 0)
+	
+	for (i = 0;
+		x > 0;
+		i++)
 	{
-		while (i < (x - 1))
-			printf("%02hhx ", p[i++]);
+		if (i == x -1)
+		{
+		printf("%02hhx ", p[i]);
+		break;
+		}
 		printf("%hhx\n", p[i]);
 	}
 	return (0);
