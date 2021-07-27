@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int x, i;
-	unsigned char *p;
+	char *p;
 
 	if (argc != 2)
 	{
@@ -18,19 +18,19 @@ int main(int argc, char *argv[])
 		exit(1);
 	}
 	x = atoi(argv[1]);
-	if (x < 0)
+		if (x < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
 
-	p = (unsigned char *)main;
-	
+	p = (char *)main
+		;
 	for (i = 0;
-		x > 0;
+		i < x;
 		i++)
 	{
-		if (i == x -1)
+		if (i == x - 1)
 		{
 		printf("%02hhx ", p[i]);
 		break;
