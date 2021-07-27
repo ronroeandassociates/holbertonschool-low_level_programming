@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 	{
 		if (i == x - 1)
 		{
-		printf("%02hhx ", p[i]);
+		printf("%02hhx\n ", p[i]);
 		break;
 		}
 		printf("%hhx\n", p[i]);
