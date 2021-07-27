@@ -10,6 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int i, x;
+	char *p;
 
 	if (argc != 2)
 	{
@@ -22,12 +23,13 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
-
-	for (i = 0; i < (x - 1); i++)
+	p = (char *)main;
+	for (i = 0; i < x; i++)
 	{
-		if (x != 0)
-		pirintf("%02hhx ", ((char *)main)[i]);
+		if (i == x - 1)
+		printf("%02hhx\n ", p[i]);
+		break;
 	}
-	printf("%hhx\n", ((char *)main)[i]);
+	printf("%hhx ", p[i]);
 	return (0);
 }
