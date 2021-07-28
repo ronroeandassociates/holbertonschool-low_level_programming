@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 		if (index == bits - 1)
 			continue;
 		printf(" ");
-		index++;
+		address++;
 	}
 	printf("\n");
 	return (0);
