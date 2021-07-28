@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - prints opcode of own main function
  *
  * @argc: argument count
  * @argv: arg value
- * Return: int
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
@@ -18,22 +19,22 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(1);
 	}
-	x = atoi(argv[1]);
+	bits = atoi(argv[1]);
 
-	if (x < 0)
+	if (bits < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
-	for (index = 0 index < bits; index++)
+	for (index = 0; index < bits; index++)
 	{
 		opcode = *(unsigned char *)address;
 		printf("%.2x", opcode);
 
-		if (i == bits - 1)
+		if (index == bits - 1)
 			continue;
 		printf(" ");
-		address++;
+		index++;
 	}
 	printf("\n");
 	return (0);
