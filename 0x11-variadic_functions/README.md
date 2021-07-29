@@ -34,5 +34,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - [x] 0-sum\_them\_all.c
 - [x] 1-print\_numbers.c
 - [x] 2-print\_strings.c
-- [ ] 3-print\_all.c
+- [x] 3-print\_all.c
 - [ ] 100-hello\_holberton.asm
