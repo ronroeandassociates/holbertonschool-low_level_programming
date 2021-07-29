@@ -35,4 +35,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - [x] 1-print\_numbers.c
 - [x] 2-print\_strings.c
 - [x] 3-print\_all.c
-- [ ] 100-hello\_holberton.asm
+- [x] 100-hello\_holberton.asm
