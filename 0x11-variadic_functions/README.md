@@ -31,8 +31,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Don’t forget to push your header file
 - All your header files should be include guarded
 ### Tasks
--[ ] 0-sum\_them\_all.c
--[ ] 1-print\_numbers.c
--[ ] 2-print\_strings.c
--[ ] 3-print\_all.c
--[ ] 100-hello\_holberton.asm
+- [ ] 0-sum\_them\_all.c
+- [ ] 1-print\_numbers.c
+- [ ] 2-print\_strings.c
+- [ ] 3-print\_all.c
+- [ ] 100-hello\_holberton.asm
