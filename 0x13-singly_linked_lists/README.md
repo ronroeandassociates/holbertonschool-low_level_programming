@@ -55,7 +55,7 @@ typedef struct list_s
 - [x] 0-print\_list.c
 - [x] 1-list\_len.c
 - [x] 2-add\_node.c
-- [ ] 3-add\_node\_end.c
+- [x] 3-add\_node\_end.c
 - [ ] 4-free\_list.c
 - [ ] 100-first.c
 - [ ]  101-hello\_holberton.asm
