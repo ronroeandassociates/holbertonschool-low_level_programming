@@ -33,23 +33,6 @@ How to build and use linked lists
 - Don’t forget to push your header file
 - All your header files should be include guarded
 - More Info
-### Please use this data structure for this project:
-
-/\*\*
- \* struct list_s - singly linked list
- \* @str: string - (malloc'ed string)
-\* @len: length of the string
-\* @next: points to the next node
- \*
- \* Description: singly linked list node structure
- \* for Holberton project
- \*/
-typedef struct list_s
-{
-    char *str;
-    unsigned int len;
-    struct list_s *next;
-} list\_t;
 
 ## Tasks
 - [x] 0-print\_list.c
@@ -57,5 +40,5 @@ typedef struct list_s
 - [x] 2-add\_node.c
 - [x] 3-add\_node\_end.c
 - [x] 4-free\_list.c
-- [ ] 100-first.c
-- [ ]  101-hello\_holberton.asm
+- [x] 100-first.c
+- [x]  101-hello\_holberton.asm
