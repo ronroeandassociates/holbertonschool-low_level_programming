@@ -49,13 +49,13 @@ typedef struct list_s
     char *str;
     unsigned int len;
     struct list_s *next;
-} list_t;
+} list\_t;
 
 ## Tasks
-- [ ] 0-print_list.c
-- [ ] 1-list_len.c
-- [ ] 2-add_node.c
-- [ ] 3-add_node_end.c
-- [ ] 4-free_list.c
+- [x] 0-print\_list.c
+- [x] 1-list\_len.c
+- [x] 2-add\_node.c
+- [ ] 3-add\_node\_end.c
+- [ ] 4-free\_list.c
 - [ ] 100-first.c
-- [ ]  101-hello_holberton.asm
+- [ ]  101-hello\_holberton.asm
