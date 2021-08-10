@@ -25,7 +25,7 @@ i All your header files should be include guarded
 
 ## Tasks
 
-- [ ] list.h
+- [x] list.h
 - [ ] 0-print\_listint.c
 - [ ] 1-listint\_len.c
 - [ ] 2-add\_nodeint.c
