@@ -30,9 +30,9 @@ Tasks
 - [x] README.md
 - [x] .gitignore
 - [x] holburton.h 
-- [ ] 0-binary_to\_uint.c
-- [ ] 1-print\_binary.c
-- [ ] 2-get\_bit.c
-- [ ] 3-set\_bit.c
-- [ ] 4-clear\_bit.c
-- [ ] 5-flip\_bits.c
+- [x] 0-binary\_to\_uint.c
+- [x] 1-print\_binary.c
+- [x] 2-get\_bit.c
+- [x] 3-set\_bit.c
+- [x] 4-clear\_bit.c
+- [x] 5-flip\_bits.c
