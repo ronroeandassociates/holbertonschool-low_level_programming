@@ -2,28 +2,26 @@
 
 /**
  * binary_to_uint - convert a binary number to an unsigned int
- * @b: string of stuff
+ * @b: string to convert
  *
  * Return: converted number, 0 if failed
  */
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int num1 = 1;
-	unsigned int num0 = 0;
-	int c;
-	unsigned int len;
+	unsigned int num = 0;
 
-	len = strlen(b);
-	for (c = len - 1; c >= 0; c--)
+	if (b == NULL)
+		return (0);
+
+	while (*b != '\0')
 	{
-		if (b[c] != '0' && b[c] != '1')
+		num = num << 1;
+		if (*b != '0' && *b != '1')
 			return (0);
-		if (b[c] == '1')
-		{
-			num1 += num0;
-		}
-		num1 *= 2;
+		if (*b == '1')
+			num = num ^ 1;
+		b++;
 	}
-	return (num0);
+	return (num);
 }
