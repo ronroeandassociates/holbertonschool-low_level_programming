@@ -45,4 +45,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - [x] 0-read\_textfile.c
 - [x] 1-create\_file.c
 - [x] 2-append\_text\_to\_file.c
-- [ ] 3-cp.c
+- [x] 3-cp.c
