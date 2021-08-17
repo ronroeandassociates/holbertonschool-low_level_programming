@@ -49,3 +49,33 @@ int cp(char *file_to, char *file_from)
 	}
 	return (0);
 }
+
+/**
+ * main - the main function
+ * @ac: the argument count
+ * @av: the argument vector
+ *
+ * Return: always 0
+ */
+int main(int ac, char **av)
+{
+	int c;
+
+	if (ac != 3)
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
+
+	c = cp(av[2], av[1]);
+	switch (c)
+	{
+			case (98):
+				dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", av[1]);
+				exit(98);
+			case (99):
+				dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
+				exit(99);
+			case (100):
+				exit(100);
+			default:
+				return (0);
+		}
+}
