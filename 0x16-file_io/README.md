@@ -1,5 +1,5 @@
 # 0x16. C - File I/O
-*By Ron Olsen, Student at **Holberton School**.*
+*By Ron Olsen, Student :student: at **Holberton School**.*
 > using requirements of Julien Barbier, co-founder & CEO Holberton School
 ## Resources
 ### Read or watch:
