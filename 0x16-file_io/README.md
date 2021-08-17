@@ -42,7 +42,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - [x] README.md
 - [x] .gitignore
 - [x] holberton.h
-- [ ] 0-read\_textfile.c
-- [ ] 1-create\_file.c
-- [ ] 2-append\_text\_to\_file.c
+- [x] 0-read\_textfile.c
+- [x] 1-create\_file.c
+- [x] 2-append\_text\_to\_file.c
 - [ ] 3-cp.c
