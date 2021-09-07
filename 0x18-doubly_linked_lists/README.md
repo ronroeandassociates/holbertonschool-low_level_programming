@@ -379,14 +379,14 @@ root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_list
 sum = 1534
 root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
-- [ ] 7. Insert at index
+- [x] 7. [Insert at index](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/7-insert_dnodeint.c)
 
 	Write a function that inserts a new node at a given position.
 	- Prototype: dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 	- where idx is the index of the list where the new node should be added. Index starts at 0
 	- Returns: the address of the new node, or NULL if it failed
 	- if it is not possible to add the new node at index idx, do not add the new node and return NULL
-files 2-add_dnodeint.c and 3-add_dnodeint_end.c will be compiled during the correction
+files 2-add\_dnodeint.c and 3-add\_dnodeint\_end.c will be compiled during the correction
 ```
 root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# cat 7-main.c
 #include <stdlib.h>
