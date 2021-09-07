@@ -225,7 +225,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./d
 1024
 julien@ubuntu:~/0x18. Doubly linked lists$
 ```
-- [ ] 4. Free list
+- [x] [4. Free list](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/4-free_dlistint.c)
 
 	 Write a function that frees a dlistint\_t list.
 	- Prototype: void free\_dlistint(dlistint\_t *head);
