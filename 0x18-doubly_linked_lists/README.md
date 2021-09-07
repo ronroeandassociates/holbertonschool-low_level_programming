@@ -38,7 +38,7 @@ typedef struct dlistint_s
 } dlistint_t;
 ```
 ## Tasks
-- [ ] 0.Print List
+- [x] [0.Print List](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/0-print_dlistint.c)
 	Write a function that prints all the elements of a dlistint\_t list.
 
 	- Prototype: size\_t print\_dlistint(const dlistint\_t *h);
