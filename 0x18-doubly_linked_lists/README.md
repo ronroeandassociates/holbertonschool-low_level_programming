@@ -337,7 +337,7 @@ root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_list
 98
 root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
-- [ ] 6. Sum list
+- [x] 6. [Sum list](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/6-sum_dlistint.c)
 
 	Write a function that returns the sum of all the data (n) of a dlistint_t linked list.
 	- Prototype: int sum\_dlistint(dlistint\_t *head);
