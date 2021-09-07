@@ -1,5 +1,6 @@
 # 0x18.C - Doubly linked lists
 *Created by Ron Olsen*
+
 **using resources provided by:**
 > By Julien Barbier, co-founder & CEO at Holberton School
 ## Resources
@@ -15,7 +16,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Start to look for the right source of information without too much help
 ## Requirements
 ### General
-- All  files igned to compilevon Ubuntu 14.04 LTS
+- All  files will be designed to compile on  Ubuntu 14.04 LTS
 - Programs and functions will be compiled with gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
 - Code complies with the Betty style. 
 - The prototypes of all your functions are included in the header file called lists.h
