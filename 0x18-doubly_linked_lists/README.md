@@ -88,7 +88,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./a
 -> 2 elements
 julien@ubuntu:~/0x18. Doubly linked lists$
 ```
-- [ ] 1. List length
+- [x] 1. [List length](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/1-dlistint_len.c)
 
 	Write a function that returns the number of elements in a linked dlistint_t list.
 	- Prototype: size_t dlistint_len(const dlistint_t *h);
