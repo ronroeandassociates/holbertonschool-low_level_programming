@@ -89,6 +89,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./a
 julien@ubuntu:~/0x18. Doubly linked lists$
 ```
 - [ ] 1. List length
+
 	Write a function that returns the number of elements in a linked dlistint_t list.
 	- Prototype: size_t dlistint_len(const dlistint_t *h);
 ```
@@ -133,6 +134,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./b
 julien@ubuntu:~/0x18. Doubly linked lists$
 ```
 - [ ] 2. Add Node
+
 	Write a function that adds a new node at the beginning of a dlistint_t list.
 
 	- Prototype: dlistint_t *add_dnodeint(dlistint_t **head, const int n);
@@ -177,8 +179,55 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./c
 0
 julien@ubuntu:~/0x18. Doubly linked lists$
 ```
+- [ ] 3. Add node at the end
+
+	Write a function that adds a new node at the end of a dlistint_t list.
+
+	- Prototype: dlistint\_t *add_dnodeint_end(dlistint_t **head, const int n);
+	- Return: the address of the new element, or NULL if it failed
+```
+julien@ubuntu:~/0x18. Doubly linked lists$ cat 3-main.c 
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "lists.h"
+
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always EXIT_SUCCESS.
+ */
+int main(void)
+{
+    dlistint_t *head;
+
+    head = NULL;
+    add_dnodeint_end(&head, 0);
+    add_dnodeint_end(&head, 1);
+    add_dnodeint_end(&head, 2);
+    add_dnodeint_end(&head, 3);
+    add_dnodeint_end(&head, 4);
+    add_dnodeint_end(&head, 98);
+    add_dnodeint_end(&head, 402);
+    add_dnodeint_end(&head, 1024);
+    print_dlistint(head);
+    return (EXIT_SUCCESS);
+}
+julien@ubuntu:~/0x18. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra 3-main.c 3-add_dnodeint_end.c 0-print_dlistint.c -o d
+julien@ubuntu:~/0x18. Doubly linked lists$ ./d 
+0
+1
+2
+3
+4
+98
+402
+1024
+julien@ubuntu:~/0x18. Doubly linked lists$
+```
 - [ ] 4. Free list
-	- Write a function that frees a dlistint\_t list.
+
+	 Write a function that frees a dlistint\_t list.
 	- Prototype: void free\_dlistint(dlistint\_t *head);
 ```
 julien@ubuntu:~/0x18. Doubly linked lists$ cat 4-main.c
@@ -237,8 +286,9 @@ julien@ubuntu:~/0x18. Doubly linked lists$ valgrind ./e
 julien@ubuntu:~/0x18. Doubly linked lists$
 ```
 - [ ] 5. Get node at index
-Write a function that returns the nth node of a dlistint_t linked list.
-i	- Prototype: dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
+
+	Write a function that returns the nth node of a dlistint_t linked list.
+	- Prototype: dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 	- where index is the index of the node, starting from 0
 	- if the node does not exist, return NULL
 ```
@@ -288,8 +338,9 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./h
 julien@ubuntu:~/0x18. Doubly linked lists$
 ```
 - [ ] 6. Sum list
-Write a function that returns the sum of all the data (n) of a dlistint_t linked list.
-	- Prototype: int sum_dlistint(dlistint_t *head);
+
+	Write a function that returns the sum of all the data (n) of a dlistint_t linked list.
+	- Prototype: int sum\_dlistint(dlistint\_t *head);
 	- if the list is empty, return 0
 ```
 julien@ubuntu:~/0x18. Doubly linked lists$ cat 6-main.c 
@@ -329,7 +380,8 @@ sum = 1534
 julien@ubuntu:~/0x18. Doubly linked lists$
 ```
 - [ ] 7. Insert at index
-Write a function that inserts a new node at a given position.
+
+	Write a function that inserts a new node at a given position.
 	- Prototype: dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 	- where idx is the index of the list where the new node should be added. Index starts at 0
 	- Returns: the address of the new node, or NULL if it failed
@@ -391,7 +443,8 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./j
 julien@ubuntu:~/0x18. Doubly linked lists$
 ```
 -[ ] 8. Delete at index
-Write a function that deletes the node at index index of a dlistint_t linked list.
+
+	Write a function that deletes the node at index index of a dlistint_t linked list.
 	- Prototype: int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 	- where index is the index of the node that should be deleted. Index starts at 0
 	- Returns: 1 if it succeeded, -1 if it failed
