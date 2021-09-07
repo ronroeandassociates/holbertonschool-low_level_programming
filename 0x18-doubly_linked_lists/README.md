@@ -133,7 +133,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./b
 -> 2 elements
 julien@ubuntu:~/0x18. Doubly linked lists$
 ```
-- [ ] 2. Add Node
+- [x] 2. [Add Node](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/2-add_dnodeint.c)
 
 	Write a function that adds a new node at the beginning of a dlistint_t list.
 
