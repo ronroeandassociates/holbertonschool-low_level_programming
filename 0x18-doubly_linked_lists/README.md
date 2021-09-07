@@ -1,6 +1,6 @@
 # 0x18.C - Doubly linked lists
-  Created by Ron Olsen 
-_ using resources provided by: _
+*Created by Ron Olsen*
+**using resources provided by:**
 > By Julien Barbier, co-founder & CEO at Holberton School
 ## Resources
 ### Read or watch:
