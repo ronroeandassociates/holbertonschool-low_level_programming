@@ -46,7 +46,7 @@ typedef struct dlistint_s
 	- Return: the number of nodes
 	- Format:
 ```
-julien@ubuntu:~/0x18. Doubly linked lists$ cat 0-main.c 
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# cat 0-main.c 
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -81,19 +81,19 @@ int main(void)
     free(new);
     return (EXIT_SUCCESS);
 }
-julien@ubuntu:~/0x18. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra 0-main.c 0-print_dlistint.c -o a
-julien@ubuntu:~/0x18. Doubly linked lists$ ./a 
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# gcc -Wall -pedantic -Werror -Wextra 0-main.c 0-print_dlistint.c -o a
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# ./a 
 9
 8
 -> 2 elements
-julien@ubuntu:~/0x18. Doubly linked lists$
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
 - [x] 1. [List length](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/1-dlistint_len.c)
 
 	Write a function that returns the number of elements in a linked dlistint_t list.
 	- Prototype: size_t dlistint_len(const dlistint_t *h);
 ```
-julien@ubuntu:~/0x18. Doubly linked lists$ cat 1-main.c 
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# cat 1-main.c 
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -128,10 +128,10 @@ int main(void)
     free(new);
     return (EXIT_SUCCESS);
 }
-julien@ubuntu:~/0x18. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra 1-main.c 1-dlistint_len.c -o b
-julien@ubuntu:~/0x18. Doubly linked lists$ ./b 
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# gcc -Wall -pedantic -Werror -Wextra 1-main.c 1-dlistint_len.c -o b
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# ./b 
 -> 2 elements
-julien@ubuntu:~/0x18. Doubly linked lists$
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
 - [x] 2. [Add Node](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/2-add_dnodeint.c)
 
@@ -140,7 +140,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$
 	- Prototype: dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 	- Return: the address of the new element, or NULL if it failed
 ```
-julien@ubuntu:~/0x18. Doubly linked lists$ cat 2-main.c 
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# cat 2-main.c 
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -167,8 +167,8 @@ int main(void)
     print_dlistint(head);
     return (EXIT_SUCCESS);
 }
-julien@ubuntu:~/0x18. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra 2-main.c 2-add_dnodeint.c 0-print_dlistint.c -o c
-julien@ubuntu:~/0x18. Doubly linked lists$ ./c 
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# gcc -Wall -pedantic -Werror -Wextra 2-main.c 2-add_dnodeint.c 0-print_dlistint.c -o c
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# ./c 
 1024
 402
 98
@@ -177,7 +177,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./c
 2
 1
 0
-julien@ubuntu:~/0x18. Doubly linked lists$
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
 - [x] 3. [Add node at the end](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/3-add_dnodeint_end.c)
 
@@ -186,7 +186,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$
 	- Prototype: dlistint\_t *add_dnodeint_end(dlistint_t **head, const int n);
 	- Return: the address of the new element, or NULL if it failed
 ```
-julien@ubuntu:~/0x18. Doubly linked lists$ cat 3-main.c 
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# cat 3-main.c 
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -213,8 +213,8 @@ int main(void)
     print_dlistint(head);
     return (EXIT_SUCCESS);
 }
-julien@ubuntu:~/0x18. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra 3-main.c 3-add_dnodeint_end.c 0-print_dlistint.c -o d
-julien@ubuntu:~/0x18. Doubly linked lists$ ./d 
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# gcc -Wall -pedantic -Werror -Wextra 3-main.c 3-add_dnodeint_end.c 0-print_dlistint.c -o d
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# ./d 
 0
 1
 2
@@ -223,14 +223,14 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./d
 98
 402
 1024
-julien@ubuntu:~/0x18. Doubly linked lists$
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
 - [x] [4. Free list](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/4-free_dlistint.c)
 
 	 Write a function that frees a dlistint\_t list.
 	- Prototype: void free\_dlistint(dlistint\_t *head);
 ```
-julien@ubuntu:~/0x18. Doubly linked lists$ cat 4-main.c
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# cat 4-main.c
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -259,8 +259,8 @@ int main(void)
     head = NULL;
     return (EXIT_SUCCESS);
 }
-julien@ubuntu:~/0x18. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra 4-main.c 3-add_dnodeint_end.c 0-print_dlistint.c 4-free_dlistint.c -o e
-julien@ubuntu:~/0x18. Doubly linked lists$ valgrind ./e 
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# gcc -Wall -pedantic -Werror -Wextra 4-main.c 3-add_dnodeint_end.c 0-print_dlistint.c 4-free_dlistint.c -o e
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# valgrind ./e 
 ==4197== Memcheck, a memory error detector
 ==4197== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
 ==4197== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
@@ -283,7 +283,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$ valgrind ./e
 ==4197== 
 ==4197== For counts of detected and suppressed errors, rerun with: -v
 ==4197== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
-julien@ubuntu:~/0x18. Doubly linked lists$
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
 - [ ] 5. Get node at index
 
@@ -292,7 +292,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$
 	- where index is the index of the node, starting from 0
 	- if the node does not exist, return NULL
 ```
-julien@ubuntu:~/0x18. Doubly linked lists$ cat 5-main.c
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# cat 5-main.c
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -324,8 +324,8 @@ int main(void)
     head = NULL;
     return (EXIT_SUCCESS);
 }
-julien@ubuntu:~/0x18. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra 5-main.c 3-add_dnodeint_end.c 0-print_dlistint.c 4-free_dlistint.c 5-get_dnodeint.c -o h
-julien@ubuntu:~/0x18. Doubly linked lists$ ./h
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# gcc -Wall -pedantic -Werror -Wextra 5-main.c 3-add_dnodeint_end.c 0-print_dlistint.c 4-free_dlistint.c 5-get_dnodeint.c -o h
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# ./h
 0
 1
 2
@@ -335,7 +335,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./h
 402
 1024
 98
-julien@ubuntu:~/0x18. Doubly linked lists$
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
 - [ ] 6. Sum list
 
@@ -343,7 +343,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$
 	- Prototype: int sum\_dlistint(dlistint\_t *head);
 	- if the list is empty, return 0
 ```
-julien@ubuntu:~/0x18. Doubly linked lists$ cat 6-main.c 
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# cat 6-main.c 
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -374,10 +374,10 @@ int main(void)
     head = NULL;
     return (EXIT_SUCCESS);
 }
-julien@ubuntu:~/0x18. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra 6-main.c 3-add\_dnodeint\_end.c 4-free\_dlistint.c 6-sum\_dlistint.c -o i
-julien@ubuntu:~/0x18. Doubly linked lists$ ./i 
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# gcc -Wall -pedantic -Werror -Wextra 6-main.c 3-add\_dnodeint\_end.c 4-free\_dlistint.c 6-sum\_dlistint.c -o i
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# ./i 
 sum = 1534
-julien@ubuntu:~/0x18. Doubly linked lists$
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
 - [ ] 7. Insert at index
 
@@ -388,7 +388,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$
 	- if it is not possible to add the new node at index idx, do not add the new node and return NULL
 files 2-add_dnodeint.c and 3-add_dnodeint_end.c will be compiled during the correction
 ```
-julien@ubuntu:~/0x18. Doubly linked lists$ cat 7-main.c
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# cat 7-main.c
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -420,8 +420,8 @@ int main(void)
     head = NULL;
     return (EXIT_SUCCESS);
 }
-julien@ubuntu:~/0x18. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra 7-main.c 2-add_dnodeint.c 3-add_dnodeint_end.c 0-print_dlistint.c 4-free_dlistint.c 7-insert_dnodeint.c -o j
-julien@ubuntu:~/0x18. Doubly linked lists$ ./j 
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# gcc -Wall -pedantic -Werror -Wextra 7-main.c 2-add_dnodeint.c 3-add_dnodeint_end.c 0-print_dlistint.c 4-free_dlistint.c 7-insert_dnodeint.c -o j
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# ./j 
 0
 1
 2
@@ -440,7 +440,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./j
 98
 402
 1024
-julien@ubuntu:~/0x18. Doubly linked lists$
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
 -[ ] 8. Delete at index
 
@@ -449,7 +449,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$
 	- where index is the index of the node that should be deleted. Index starts at 0
 	- Returns: 1 if it succeeded, -1 if it failed
 ```
-julien@ubuntu:~/0x18. Doubly linked lists$ cat 8-main.c
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# cat 8-main.c
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -518,8 +518,8 @@ int main(void)
     print_dlistint(head);
     return (0);
 }
-julien@ubuntu:~/0x18. Doubly linked lists$ gcc -Wall -pedantic -Werror -Wextra 8-main.c 3-add_dnodeint_end.c 0-print_dlistint.c 4-free_dlistint.c 8-delete_dnodeint.c -o k
-julien@ubuntu:~/0x18. Doubly linked lists$ ./k
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# gcc -Wall -pedantic -Werror -Wextra 8-main.c 3-add_dnodeint_end.c 0-print_dlistint.c 4-free_dlistint.c 8-delete_dnodeint.c -o k
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists# ./k
 0
 1
 2
@@ -573,5 +573,5 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./k
 -----------------
 -----------------
 -----------------
-julien@ubuntu:~/0x18. Doubly linked lists$
+root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
