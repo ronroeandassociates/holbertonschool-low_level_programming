@@ -285,7 +285,7 @@ root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_list
 ==4197== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
-- [ ] 5. Get node at index
+- [x] 5. [Get node at index](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/5-get_dnodeint.c)
 
 	Write a function that returns the nth node of a dlistint_t linked list.
 	- Prototype: dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
