@@ -179,7 +179,7 @@ julien@ubuntu:~/0x18. Doubly linked lists$ ./c
 0
 julien@ubuntu:~/0x18. Doubly linked lists$
 ```
-- [x] 3. [Add node at the end]9https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/3-add_dnodeint_end.c)
+- [x] 3. [Add node at the end](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/3-add_dnodeint_end.c)
 
 	Write a function that adds a new node at the end of a dlistint_t list.
 
