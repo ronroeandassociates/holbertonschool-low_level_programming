@@ -1,11 +1,11 @@
 # 0x18.C - Doubly linked lists
-+i Created by Ron Olsen
-+b using resources provided by:
+**  Created by Ron Olsen **
+__ using resources provided by: __
 > By Julien Barbier, co-founder & CEO at Holberton School
 ## Resources
-###Read or watch:
+### Read or watch:
 
-[What is a Doubly Linked List] (https://www.youtube.com/watch?v=VOQNf1VxU3Q)
+[What is a Doubly Linked List](https://www.youtube.com/watch?v=VOQNf1VxU3Q)
 ### Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
