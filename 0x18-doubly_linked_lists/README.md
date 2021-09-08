@@ -442,7 +442,7 @@ root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_list
 1024
 root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
--[x] 8. [Delete at index](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/8-delete_dnodeint.c)
+- [x] 8. [Delete at index](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/8-delete_dnodeint.c)
 
 	Write a function that deletes the node at index index of a dlistint_t linked list.
 	- Prototype: int delete\_dnodeint\_at\_index(dlistint\_t **head, unsigned int index);
