@@ -225,7 +225,7 @@ root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_list
 1024
 root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
-- [x] [4. Free list](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/4-free_dlistint.c)
+- [x] [4. Free list](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/master/0x18-doubly_linked_lists/4-free_dlistint.c)
 
 	 Write a function that frees a dlistint\_t list.
 	- Prototype: void free\_dlistint(dlistint\_t *head);
