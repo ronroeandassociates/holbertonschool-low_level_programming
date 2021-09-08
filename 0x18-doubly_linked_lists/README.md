@@ -38,7 +38,7 @@ typedef struct dlistint_s
 } dlistint_t;
 ```
 ## Tasks
-- [x] [0.Print List](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/0-print_dlistint.c)
+- [x] 0. [Print List](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/master/0x18-doubly_linked_lists/0-print_dlistint.c)
 
 	Write a function that prints all the elements of a dlistint\_t list.
 
@@ -88,7 +88,7 @@ root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_list
 -> 2 elements
 root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
-- [x] 1. [List length](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/1-dlistint_len.c)
+- [x] 1. [List length](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/master/0x18-doubly_linked_lists/1-dlistint_len.c)
 
 	Write a function that returns the number of elements in a linked dlistint_t list.
 	- Prototype: size_t dlistint_len(const dlistint_t *h);
@@ -133,7 +133,7 @@ root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_list
 -> 2 elements
 root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
-- [x] 2. [Add Node](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/2-add_dnodeint.c)
+- [x] 2. [Add Node](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/master/0x18-doubly_linked_lists/2-add_dnodeint.c)
 
 	Write a function that adds a new node at the beginning of a dlistint_t list.
 
@@ -179,7 +179,7 @@ root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_list
 0
 root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
-- [x] 3. [Add node at the end](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/3-add_dnodeint_end.c)
+- [x] 3. [Add node at the end](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/master/0x18-doubly_linked_lists/3-add_dnodeint_end.c)
 
 	Write a function that adds a new node at the end of a dlistint_t list.
 
@@ -285,7 +285,7 @@ root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_list
 ==4197== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 root@7aec626f3af8:/holbertonschool-low\_level\_programming/0x18-doubly\_linked\_lists#
 ```
-- [x] 5. [Get node at index](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/5-get_dnodeint.c)
+- [x] 5. [Get node at index](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/master/0x18-doubly_linked_lists/5-get_dnodeint.c)
 
 	Write a function that returns the nth node of a dlistint_t linked list.
 	- Prototype: dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
@@ -337,7 +337,7 @@ root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_list
 98
 root@7aec626f3af8:/holbertonschool-low\_level\_programming/0x18-doubly\_linked\_lists#
 ```
-- [x] 6. [Sum list](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/6-sum_dlistint.c)
+- [x] 6. [Sum list](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/master/0x18-doubly_linked_lists/6-sum_dlistint.c)
 
 	Write a function that returns the sum of all the data (n) of a dlistint_t linked list.
 	- Prototype: int sum\_dlistint(dlistint\_t *head);
@@ -379,7 +379,7 @@ root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_list
 sum = 1534
 root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
-- [x] 7. [Insert at index](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/7-insert_dnodeint.c)
+- [x] 7. [Insert at index](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/master/0x18-doubly_linked_lists/7-insert_dnodeint.c)
 
 	Write a function that inserts a new node at a given position.
 	- Prototype: dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
@@ -442,7 +442,7 @@ root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_list
 1024
 root@7aec626f3af8:/holbertonschool-low_level_programming/0x18-doubly_linked_lists#
 ```
-- [x] 8. [Delete at index](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/main/0x18-doubly_linked_lists/8-delete_dnodeint.c)
+- [x] 8. [Delete at index](https://github.com/ronroeandassociates/holbertonschool-low_level_programming/blob/master/0x18-doubly_linked_lists/8-delete_dnodeint.c)
 
 	Write a function that deletes the node at index index of a dlistint_t linked list.
 	- Prototype: int delete\_dnodeint\_at\_index(dlistint\_t **head, unsigned int index);
