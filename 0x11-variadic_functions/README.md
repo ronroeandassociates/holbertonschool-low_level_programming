@@ -51,5 +51,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - [x] 100-hello_holberton.asm
 
 <p align="center">
-<img src="/images/roeHR-01.png" width=10% height=10%>
+<img src="../images/roeHR-01.png" width=10% height=10%>
 </p>

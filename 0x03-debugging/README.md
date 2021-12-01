@@ -22,5 +22,5 @@ Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 
 <p align="center">
-<img src="/images/roeHR-01.png" width=10% height=10%>
+<img src="../images/roeHR-01.png" width=10% height=10%>
 </p>

@@ -54,5 +54,5 @@ How to build and use linked lists
 - [x] 101-hello_holberton.asm
 
 <p align="center">
-<img src="/images/roeHR-01.png" width=10% height=10%>
+<img src="../images/roeHR-01.png" width=10% height=10%>
 </p>

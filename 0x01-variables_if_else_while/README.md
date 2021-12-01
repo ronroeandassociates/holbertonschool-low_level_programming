@@ -53,5 +53,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
 
 <p align="center">
-<img src="/images/roeHR-01.png" width=10% height=10%>
+<img src="../images/roeHR-01.png" width=10% height=10%>
 </p>

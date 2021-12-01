@@ -60,5 +60,5 @@ File: 3-alloc_grid.c
 File: 4-free_grid.c
 
 <p align="center">
-<img src="/images/roeHR-01.png" width=10% height=10%>
+<img src="../images/roeHR-01.png" width=10% height=10%>
 </p>

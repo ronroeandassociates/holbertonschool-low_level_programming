@@ -36,5 +36,5 @@ More Info
 You do not have to understand the call by reference (address), stack, static variables, recursions or arrays, yet.
 
 <p align="center">
-<img src="/images/roeHR-01.png" width=10% height=10%>
+<img src="../images/roeHR-01.png" width=10% height=10%>
 </p>
