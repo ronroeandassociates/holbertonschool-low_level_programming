@@ -1,9 +1,9 @@
 0x05. C - Pointers, arrays and strings
- US Program > Trimester 1 > PP1000 - Beginning Procedural Programming
- By Julien Barbier, co-founder & CEO at Holberton School
- Ongoing project - started 07-02-2021, must end by 07-07-2021 (in 5 days) - you're done with 0% of tasks.
- Checker was released at 07-02-2021 12:00 AM
- QA review fully automated.
+US Program > Trimester 1 > PP1000 - Beginning Procedural Programming
+By Julien Barbier, co-founder & CEO at Holberton School
+Ongoing project - started 07-02-2021, must end by 07-07-2021 (in 5 days) - you're done with 0% of tasks.
+Checker was released at 07-02-2021 12:00 AM
+QA review fully automated.
 Concepts
 For this project, students are expected to look at these concepts:
 Pointers and arrays
@@ -32,10 +32,14 @@ Your code should use the Betty style. It will be checked using betty-style.pl an
 You are not allowed to use global variables
 No more than 5 functions per file
 You are not allowed to use the standard library. Any use of functions like printf, puts, etc… is forbidden
-You are allowed to use _putchar
-You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
+You are allowed to use \_putchar
+You don’t have to push \_putchar.c, we will use our file. If you do it won’t be taken into account
 In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
-The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called holberton.h
+The prototypes of all your functions and the prototype of the function \_putchar should be included in your header file called holberton.h
 Don’t forget to push your header file
 More Info
 You do not need to learn about pointers to functions, pointers to pointers, multidimensional arrays, arrays of structures, malloc and free - yet.
+
+<p align="center">
+<img src="/images/roeHR-01.png" width=10% height=10%>
+</p>

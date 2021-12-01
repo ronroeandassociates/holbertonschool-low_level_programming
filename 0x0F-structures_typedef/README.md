@@ -1,6 +1,7 @@
 # 0x0F. C - Structures, typedef
 
 ## Resources
+
 ### Read or watch:
 
 - 0x0d. Structures.pdf
@@ -10,14 +11,20 @@
 - typedef
 - Programming in C by Stephen Kochan - Chapter 8, Working with Structures p163-189
 - The Lost Art of C Structure Packing (Advanced - not mandatory)
+
 ### Learning Objectives
+
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 ### General
+
 - What are structures, when, why and how to use them
 - How to use typedef
+
 ## Requirements
+
 ### General
+
 - Allowed editors: vi, vim, emacs
 - All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 - All your files should end with a new line
@@ -31,10 +38,14 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - All your header files should be include guarded
 
 ## Tasks
-- [x] dog.h
-- [x] 1-init\_dog.c
-- [x] 2-print\_dog.c
-- [x] dog.h
-- [x] 4-new\_dog.c
-- [x] 5-free\_dog.c
 
+- [x] dog.h
+- [x] 1-init_dog.c
+- [x] 2-print_dog.c
+- [x] dog.h
+- [x] 4-new_dog.c
+- [x] 5-free_dog.c
+
+<p align="center">
+<img src="/images/roeHR-01.png" width=10% height=10%>
+</p>

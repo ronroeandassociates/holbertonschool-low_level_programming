@@ -1,5 +1,7 @@
 # 0x0D. C - Preprocessor
+
 ## Resources
+
 ### Read or watch:
 
 - Understanding C program Compilation Process
@@ -10,15 +12,21 @@
 - Standard Predefined Macros
 - include guard
 - Common Predefined Macros
+
 ### Learning Objectives
+
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 ### General
+
 - What are macros and how to use them
 - What are the most common predefined macros
 - How to include guard your header files
+
 ### Requirements
+
 ### General
+
 - Allowed editors: vi, vim, emacs
 - All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 - All your files should end with a new line
@@ -27,15 +35,20 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - You are not allowed to use global variables
 - No more than 5 functions per file
 - The only C standard library functions allowed are malloc, free and exit. Any use of functions like printf, puts, calloc, realloc etc… is forbidden
-- You are allowed to use _putchar
-- You don’t have to push _putchar.c, we will use our file. If you do it won’t be taken into account
+- You are allowed to use \_putchar
+- You don’t have to push \_putchar.c, we will use our file. If you do it won’t be taken into account
 - In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
 - Don’t forget to push your header file
 - All your header files should be include guarded
 
 ### Tasks
-- [x] 0-object\_like\_macro.h
+
+- [x] 0-object_like_macro.h
 - [x] 1-pi.h
 - [x] 2-main.c
-- [x] 3-function\_like\_macro.h
+- [x] 3-function_like_macro.h
 - [x] 4-sum.h
+
+<p align="center">
+<img src="/images/roeHR-01.png" width=10% height=10%>
+</p>
