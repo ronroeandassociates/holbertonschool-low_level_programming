@@ -1,4 +1,4 @@
-![low level banner](https://github.com/ronroeandassociates/assets/blob/images/hsllp_banner.png)
+![low level banner](https://github.com/ronroeandassociates/assets/blob/master/images/hsllp_banner.png)
 
 # 0x00. C - Hello, World
 
