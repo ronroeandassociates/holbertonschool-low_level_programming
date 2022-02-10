@@ -1,35 +1,14 @@
+![0x08. C - Recursion banner](https://github.com/ronroeandassociates/assets/blob/master/images/0x08-c_recursion_banner.png)
+
 # 0x08. C - Recursion
 
 ### Resources
 
-Read or watch:
-0x08. Recursion, introduction
-
-- What on Earth is Recursion?
-- C - Recursion
-- C Programming Tutorial 85, Recursion pt.1
-- C Programming Tutorial 86, Recursion pt.2
-
 ## Learning Objectives
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-### General
+At the end of this project, you are expected to be able to `explain to anyone`, **without the help of Google**:
 
 - What is recursion
 - How to implement recursion
 - In what situations you should implement recursion
 - In what situations you shouldn’t implement recursion
-
-## Requirements
-
-### General
-
-The prototypes of all your functions and the prototype of the function \_putchar should be included in your header file called holberton.h
-Don’t forget to push your header file
-You are not allowed to use any kind of loops
-You are not allowed to use static variables
-
-<p align="center">
-<img src="../images/roeHR-01.png" width=10% height=10%>
-</p>
