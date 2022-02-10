@@ -1,4 +1,4 @@
-[0x05. C - Pointers, arrays and strings](https://github.com/ronroeandassociates/assets/blob/master/images/0x05_C-Pointers_arrays_and_strings_banner.png)
+![0x05. C - Pointers, arrays and strings](https://github.com/ronroeandassociates/assets/blob/master/images/0x05_C-Pointers_arrays_and_strings_banner.png)
 
 # 0x05. C - Pointers, arrays and strings
 
