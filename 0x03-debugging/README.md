@@ -1,26 +1,13 @@
-oncepts
-For this project, students are expected to look at this concept:
+![0x03. C - Debugging banner](https://github.com/ronroeandassociates/assets/blob/master/images/0x03_c_debugging_banner.png)
 
-The Framework
-Resources
-Read or watch:
+# 0x03. C - Debugging
 
-Debugging
-Rubber Duck Debugging
-Debugging is the process of finding and fixing errors in software that prevents it from running correctly. As you become a more advanced programmer and an industry engineer, you will learn how to use debugging tools such as gdb or built-in tools that IDEs have. However, it’s important to understand the concepts and processes of debugging manually.
+## Learning Objectives
 
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+At the end of this project, you are expected to be able to `explain to anyone`, **without the help of Google**:
 
-General
-What is debugging
-What are some methods of debugging manually
-How to read the error messages
-Requirements
-General
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
-
-<p align="center">
-<img src="../images/roeHR-01.png" width=10% height=10%>
-</p>
+```
+- What is debugging
+- What are some methods of debugging manually
+- How to read the error messages
+```
